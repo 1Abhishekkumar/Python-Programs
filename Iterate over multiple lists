@@ -1,0 +1,5 @@
+name=['Samarth','Chetak','Long']
+typ=['man','horse','tiger']
+z=zip(name,typ)
+for name,typ in(z):
+    print("%s is a %s"%(name,typ))
