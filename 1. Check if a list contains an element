@@ -1,0 +1,3 @@
+lst=['Apple','Guava','Banana']
+print('Apple' in lst)     #True
+print('papaya' in lst)    #False
