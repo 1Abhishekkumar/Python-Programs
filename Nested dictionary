@@ -1,0 +1,9 @@
+dict={}
+n=int(input("Enter dictionary size"))
+for i in range(n):
+    x=int(input("Enter key"))
+    dict[x]={}
+    k=input("Enter nested key")
+    v=int(input("Enter nested value"))
+    dict[x].update({k:v})
+print(dict)
