@@ -1,0 +1,5 @@
+dict={'a':10,'b':20,'c':30}
+print(dict)
+for i in dict.keys():
+    dict[i]=dict[i]*s
+print(dict)
