@@ -1,0 +1,12 @@
+#print list with square of dicionary values
+dict={}
+n=int(input("Enter dictionary size"))
+for i in range(n):
+    k=input("Enter key")
+    v=int(input("Enter value"))
+    dict.update({k:v})
+print(dict) 
+lst=[]
+for i in dict.values():
+    lst.append(i*i)
+print(lst)
