@@ -1,0 +1,12 @@
+#sum of elements in a list
+def sum(lst):
+    s=0
+    for i in range(len(lst)):
+        s+=lst[i]
+    return s
+lst=[]
+n=int(input("Enter size of list"))
+for i in range(n):
+    lst.append(int(input()))
+print(lst)
+print(sum(lst))
