@@ -1,0 +1,5 @@
+list1=['lion','tiger','panther']
+def fun(n):
+    return n.upper()
+list2=list(map(fun,list1))
+print(list2)
