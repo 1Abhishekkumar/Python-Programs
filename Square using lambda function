@@ -1,0 +1,4 @@
+#Square using lambda function
+f=lambda n:n*n
+x=int(input("Enter a number"))
+print(f(x))
