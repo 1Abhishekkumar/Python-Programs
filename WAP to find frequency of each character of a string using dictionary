@@ -1,0 +1,9 @@
+#WAP to find frequency of each character of a string using dictionary
+str1=input("Enter a string")
+f={}
+for i in str1:
+    if i in f:
+        f[i] += 1
+    else:
+        f[i] = 1
+print ("Count of all characters is :\n "+  str(f))  
