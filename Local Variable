@@ -1,0 +1,7 @@
+#Local variable
+def mult(n):
+    m=10    #Local Variable
+    return m*n
+n=int(input("Enter a number"))
+a=mult(n)
+print(a)
