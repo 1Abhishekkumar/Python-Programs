@@ -1,0 +1,4 @@
+#mapping using lambda function
+list1=[1,2,3,4,5]
+list2=list(map(lambda n:n*n,list1))
+print(list2)
