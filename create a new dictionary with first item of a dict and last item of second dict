@@ -1,0 +1,10 @@
+d1={'prabal':10,'prem':20}
+d2={'Avin':10,'vansh':'20'}
+d3={}
+for i in d1.keys():
+    d3.update({i:d1[i]})
+    break
+for i in d2.keys():
+    j=i
+d3.update({j:d2[j]})
+print(d3)
