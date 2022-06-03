@@ -1,0 +1,6 @@
+#Global variable 
+m=10   #Global variable
+def mult(n):
+  return m*n 
+n=int(input("Enter a number"))
+print(mult(n))  
