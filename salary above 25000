@@ -1,0 +1,5 @@
+d={1:{'sachin':25000},2:{'prabal':20000},3:{'pala':30000}}
+for i in d.keys():
+    for j in d[i].keys():
+        if d[i][j]>=25000:
+            print(j)
