@@ -1,0 +1,12 @@
+#Largest number using lambda function
+'''
+f=lambda m,n:max(m,n)
+x=int(input())
+y=int(input())
+print(f(x,y))
+'''
+#Method 2
+f=lambda m,n:n if(n>m)else m
+x=int(input())
+y=int(input())
+print(f(x,y))
