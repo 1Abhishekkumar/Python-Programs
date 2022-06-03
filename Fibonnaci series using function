@@ -1,0 +1,14 @@
+#Fibonnaci series using function
+def Fibonnaci(n):
+    a,b=0,1
+    for i in range(n):
+        if i<2:
+            t=i
+        else:
+            c=a+b
+            a=b
+            b=c
+            t=c
+        print(t,end=" ")
+n=int(input("Enter limit"))
+Fibonnaci(n)
