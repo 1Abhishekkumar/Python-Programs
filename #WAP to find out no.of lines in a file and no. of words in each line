@@ -1,0 +1,13 @@
+#WAP to find out no.of lines in a file and no. of words in each line
+f=open('python.txt','a+')
+str=input("Enter a string")
+str1=f.write(str)
+f.seek(0,0)
+str2=f.readlines(str1)
+print("No. of lines=",len(str2))
+c=0
+for i in str2:
+    c+=1
+    words=i.split()
+    print("Words in line %d:%d"%(c,len(words)))
+f.close()    
