@@ -1,0 +1,4 @@
+n=5
+while n:
+    print("Shri Radhe Shyam")
+    print("Shri Radhe Krishna")
