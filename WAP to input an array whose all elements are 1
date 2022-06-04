@@ -1,0 +1,4 @@
+#Array using ones
+from numpy import*
+a=ones(5,float)
+print(a)
