@@ -1,0 +1,10 @@
+#string-Palindrome or not 
+str1=input("Enter a string")
+str2=""
+for i in range(len(str1)-1,-1,-1):
+    str2+=str1[i]
+if(str1==str2):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+print(str2) 
