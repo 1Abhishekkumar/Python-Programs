@@ -1,0 +1,13 @@
+c=0
+f=open('python.txt','w+')
+str=input("Enter a string")
+str1=f.write(str)
+f.seek(0,0)
+str2=f.read(str1)
+print(str2)
+file=str2
+for i in file:
+    if i.isupper():
+        c+=1
+print(c)    
+f.close()
