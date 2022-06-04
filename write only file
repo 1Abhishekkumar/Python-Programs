@@ -1,0 +1,5 @@
+#open file in write only mode
+f=open('python.txt','w')
+str=input("Enter a string")
+str1=f.write(str)
+f.close()
