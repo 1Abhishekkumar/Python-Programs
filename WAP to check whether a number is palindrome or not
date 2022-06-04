@@ -1,0 +1,12 @@
+#Number palindrome or not
+n=int(input("Enter a number"))
+m=n
+s=0
+while m!=0:
+    rev=m%10
+    s=s*10+rev
+    m//=10
+if(n==s):
+    print("palindrome")
+else:
+    print("Not Palindrome")
