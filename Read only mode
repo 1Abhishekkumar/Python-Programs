@@ -1,0 +1,4 @@
+f=open('python.txt','r')
+str2=f.read()
+print(str2)
+f.close()
