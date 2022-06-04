@@ -1,0 +1,4 @@
+#arange function
+from numpy import*
+a=arange(1,6)
+print(a)
